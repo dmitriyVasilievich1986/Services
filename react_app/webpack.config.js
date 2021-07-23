@@ -1,9 +1,10 @@
+const webpack = require('webpack')
 const dotenv = require('dotenv')
 const path = require('path')
 
 module.exports = {
     entry: {
-        index: './src/index.js',
+        main: './src/App.js',
     },
     output: {
         filename: '[name].js',
